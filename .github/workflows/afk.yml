@@ -3,7 +3,7 @@ name: Minecraft NPC Bot 24/7
 on:
   push:
     branches: [ main ]
-  workflow_dispatch: # Permite encender el NPC de forma manual desde el panel web
+  workflow_dispatch: 
 
 jobs:
   run-bot:
